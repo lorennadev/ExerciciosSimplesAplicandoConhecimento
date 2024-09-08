@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h2 class="titulo">Qual a sua cor favorita:</h2>
+        <select id="corFavorita">
+            <option value="blue">Azul</option>
+            <option value="fuchsia">Magenta</option>
+            <option value="yellow">Amarelo</option>
+            <option value="red">Vermelho</option>
+        </select>
+        <div class="paragrafo">Sua cor em inglês é: <br><span id="corEscolhida" class="paragrafo"></span></div>
+
+        <h2 class="titulo">Quer fazer uma conta?</h2>
+            <div id="calculadora">
+                <input type="text" class="inputCalculadora paragrafo operadorX">
+                <select name="operador" id="operador" class="paragrafo">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">x</option>
+                    <option value="/">÷</option>
+                </select>
+                <input type="text" class="inputCalculadora paragrafo operadorY">
+            </div>
+            <button id="calcular" class="paragrafo">Calcular</button>
+            <div class="resultado paragrafo"></div>
+    </main>
+</body>
+</html>

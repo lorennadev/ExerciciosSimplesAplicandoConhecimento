@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(255, 123, 0);
+}
+
+main {
+    margin: 0 20px;
+    height: 450px;
+    border-radius: 5px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+}
+
+.titulo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(82, 0, 189);
+}
+.paragrafo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#corFavorita {
+    height: 40px;
+    width: 200px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#operador, .inputCalculadora {
+    height: 80px;
+    width: 80px;
+    font-size: 30px;
+}
+
+#calcular {
+    height: 40px;
+    width: 200px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.resultado {
+    height: 80px;
+    width: 250px;
+    font-size: 30px;
+}
